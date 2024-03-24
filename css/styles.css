@@ -1,0 +1,221 @@
+/* Chris Parkin 8932002 */
+html{
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, h2{
+    font-variant: small-caps;
+    color: rgb(25, 0, 255);
+}
+figcaption{
+    font-variant: small-caps;
+    font-size: 100%;
+}
+q{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.1rem;
+}
+footer p{
+    font-size: 0.8rem;
+    clear: both;
+}
+body{
+    width: 100%;
+    max-width: 1250px;
+}
+.main-section-figure img{
+    width: 80%;
+    height: 80%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+.main-section-figure{
+    width: 80%;
+    height: 80%; 
+    padding: 0.5rem;
+    margin: 1rem auto;
+}
+iframe{
+    width: 50%;
+    height: 150%;
+    padding: 1rem;
+    border: 1rem solid rgb(0, 190, 238);
+    border-radius: 1rem;  
+}
+body{
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+header, footer{
+    text-align: center;
+    border-width: 0.5rem;
+    border-style: none;
+    border-color: #5eecff;
+    background-image: radial-gradient(rgb(255, 255, 255) 50%, rgb(0, 153, 255));
+}
+.main-section{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: hsla(200, 70%, 80%, 1);
+    /* float: left;
+    width: 45%; */
+}
+blockquote{
+    text-align: left;
+    border: 0.5rem solid rgb(0, 190, 238);
+    box-shadow: 8px 8px 12px blue;
+    font-size: 80%; 
+}
+#bio{
+    padding: 0.5rem;
+    float: left;
+    width: 30%;
+}
+#relative{
+    border: 1rem solid rgb(0, 190, 238);
+    border-radius: 1rem; 
+    background-color: rgb(255, 255, 255); 
+    float: right;
+    width: 45%; 
+}
+#absolute{
+    border: 1rem solid rgb(0, 190, 238);
+    border-radius: 1rem; 
+    background-color: hsla(222, 70%, 60%, 1); 
+}
+#relative figcaption{ 
+    color: rgb(0, 0, 0)
+} 
+#absolute figcaption{
+    color: rgb(0, 190, 238)
+}
+nav {
+    background-color: rgb(0, 146, 190);
+    padding : .25rem;
+    margin : .25rem;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0 1rem 2rem 1rem;
+    margin : 0.25rem;
+}
+nav ul li a{
+    background-color: white;
+    border: 0.25rem solid rgb(0, 183, 255);
+    display : block;
+    text-decoration: none;
+    color: rgb(0, 146, 190);
+    font-weight: bold;
+    font-variant: large;
+}
+nav ul li a:hover{
+    background-color: rgba(16, 25, 155, 0.815);
+    border-color: white; 
+    color: white;
+}
+#home-link{
+    float: left;
+    width: 50%
+}
+#contact-link{
+    float: right;
+    width: 50%
+}
+aside{
+    float: right;
+    width: 30%;  
+}
+main{
+    float: left;
+    width: 70%;
+}
+#quote{
+    clear: both;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-variant: small-caps;
+    color: blue;
+}
+table{
+    padding: 0.5rem;
+    border: 0.7rem solid rgb(25, 0, 255);
+    text-align: center;
+    font-variant: small-caps;
+    color: rgb(19, 0, 187);
+    font-weight: 200;
+    font-style: italic;
+    border-radius: 1rem;
+    border-spacing: 0.1rem;
+}
+td, th{
+    border: 0.1rem solid rgb(25, 0, 255);
+    font-size: 0.9rem;
+}
+li{
+    list-style: none;
+}
+aside ul li a{
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(19, 0, 187);
+    line-height: 2rem;
+}
+aside ul li :hover{
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color:rgb(0, 190, 238)
+}
+#contact_form{
+    padding: 5%;
+}
+@media (max-width : 900px){
+    html{
+        font-size : 15px;
+    }
+    #bio,  #relative-path-image {
+        float :none;
+        width : 80%;
+    }
+    #home-link,  #contact-link, main, aside {
+        float : none;
+        width : 100% 
+    }
+    aside{
+        text-align: center;
+    }
+    table{
+        margin : auto;
+    }
+}
+@media (max-width : 600px){
+    html{
+        font-size : 10px;
+    }
+    #bio,  #relative-path-image {
+        float :none;
+        width : 80%;
+    }
+    #home-link,  #contact-link, main, aside {
+        float : none;
+        width : 100% 
+    }
+    aside{
+        text-align: center;
+    }
+    table{
+        margin : auto;
+    }
+}
+    
+

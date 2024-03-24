@@ -1,0 +1,86 @@
+<!--Chris Parkin 8932002 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="elton john,music,">
+    <meta name="description" content="This is a site to provide history on Elton John">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1 id="header-heading" class="headings">Sir Elton John</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id= "home-link"><a href="index.html">Home</a></li>
+            <li id= contact-link><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>  
+    <main>
+        <form name=contact_form id="contact_form" method="post" action="contact.php">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" name="birthdate" id="birthdate" required>
+            </div>
+            <br>
+            <div>
+                <label for="color">Favorite Color:</label>
+                <input type="color" name="color" id="color" required>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="message" id="message" rows="4" cols="50" required></textarea>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+        </form> 
+    </main>
+    <aside>
+        
+        <table>
+            <h3>FAQs</h3>
+            <tr>
+                <td>What is his real name?:</td>
+                <td>Reginald Kenneth Dwight.</td>
+            </tr>
+            <tr>
+                <td>When was his last tour?:</td>
+                <td>July 8, 2023.</td>
+            </tr>
+        </table>
+        
+        <ul>
+            <h3>Resources</h3>
+            <li><a href="https://www.eltonjohn.com/" target="_blank" >Elton John's Website</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Elton_John" target="_blank" >Elton John's Wiki Page</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; Chris Parkin, 2024</p>
+    </footer>
+</body>
